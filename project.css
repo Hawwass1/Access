@@ -1,0 +1,16 @@
+body{
+    background-color:lightblue;
+     margin: 0;
+
+}
+.box{
+    background-color: white;
+    height: 80vh;
+    width: 30%;
+    display: flex;
+    margin:10vh 30%
+}
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    font size: 200px;
+}
