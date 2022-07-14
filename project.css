@@ -1,5 +1,5 @@
 body{
-    background-color:lightblue;
+    background-image: linear-gradient(to bottom, rgb(22, 122, 176), teal);
      margin: 0;
 
 }
@@ -7,10 +7,75 @@ body{
     background-color: white;
     height: 80vh;
     width: 30%;
-    display: flex;
-    margin:10vh 30%
+    margin:10vh 35%;
 }
 .text{
-    font-family: 'Courier New', Courier, monospace;
-    font size: 200px;
+    height: 5%;
+    width: 70%;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(2, 152, 152);
+    font-size: 30px;
+    display: inline-block;
+}
+.Name{
+    height: 10%;
+    width: 70%;
+    background-color: grey;
+    margin-top: 60px;
+    margin-left: 55px;
+    opacity: 0.2;
+}
+.E-mail{
+    height: 10%;
+    width: 70%;
+    background-color: grey;
+    margin-top: 30px;
+    margin-left: 55px;
+    opacity: 0.2;
+}
+.Password{
+    height: 10%;
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 55px;
+    background-color: grey;
+    opacity: 0.2;
+}
+.Login{
+    height: 10%;
+    width: 100%;
+    margin-top: 50px;
+    margin-left:0px;
+    display: flex;
+}
+.up{
+    height: 40%;
+    width: 30%;
+    background-image:linear-gradient(to right, teal,rgb(22, 122, 176));
+    border-radius: 15px;
+    float: right;
+    margin-left: 60px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+.in{
+    height: 40%;
+    width: 30%;
+    background-color: grey;
+    border-radius: 15px;
+    float:left;
+    margin-left: 30px;
+    opacity: 0.2;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
 }
